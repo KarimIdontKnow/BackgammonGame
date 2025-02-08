@@ -21,7 +21,7 @@ public class Game {
     }
 
     public void start() {
-        System.out.println("Willkommen zu Backgammon!du homo");
+        System.out.println("Willkommen zu Backgammon!");
         while (isGameRunning) {
             takeTurn(player1);
             if (checkWinCondition(player1)) {
